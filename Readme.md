@@ -164,3 +164,6 @@ app.use(async ctx => {
 > + response.status=:   通过数字代码设置响应状态    
 > + response.message:   获取响应的状态消息. 默认情况下, response.message 与 response.status 关联.   
 > + response.body:  获取响应主体。  
+
+## 源码
+> 核心代码就是lib目录下的四个文件：application.js/context.js/request.js/response.js

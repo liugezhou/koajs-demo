@@ -1,1 +1,1 @@
-require('./demo/cascade')
+require('./post/index.js')
