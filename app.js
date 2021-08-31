@@ -1,1 +1,1 @@
-require('./static/index.js')
+require('./static/index2.js')
