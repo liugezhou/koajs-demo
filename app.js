@@ -1,1 +1,1 @@
-require('./koa-static/indx.js')
+require('./cookie/index.js')
