@@ -1,1 +1,1 @@
-require('./session/index.js')
+require('./koa-views/index.js')
