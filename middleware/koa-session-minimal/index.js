@@ -5,7 +5,7 @@ const koaMysqlSession = require('koa-mysql-session');
 const app = new Koa();
 let store = new koaMysqlSession({
     user:'root',
-    password:'liugezhou1205',
+    password:'******',
     database:'koa-session',
     host:'127.0.0.1'
 })
