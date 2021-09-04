@@ -18,9 +18,8 @@ app.use(async (ctx) => {
 })
 
 function readHtml() {
-    console.log('?')
     return new Promise((resolve,reject)=>{
-        let indexPath = path.join(__dirname,'../post/demo.html');
+        let indexPath = path.join(__dirname,'../../post/demo.html');
         fs.readFile(indexPath,'binary', ( err, data ) => {
             if ( err ) {
               reject( err )
